@@ -65,18 +65,18 @@ const usuarios = [
     }
   },
   {
-    email: "cerritobertoldo@gmail.com",
-    password: "4321",
-    nombre: " Bertoldo Cerrito Gutiérrez",
+    email: "luisenri159@gmail.com",
+    password: "0021",
+    nombre: "Luis Enrique Gonzalez",
     cuenta: {
       nombre: "Cuenta Ahorros",
-      numero: "1001234570",
+      numero: "1738468579",
       saldo: 4000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "16/6/2025", monto: "+$2.400" },
-        { descripcion: "Depósito wester union", fecha: "16/6/2025", monto: "+$1.600" }
+        { descripcion: "Company Kelly Services", fecha: "11/11/2024", monto: "+$3.000" },
+        { descripcion: "Depósito Bank of america", fecha: "21/6/2025", monto: "+$1.000" }
         
       ]
     }
