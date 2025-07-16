@@ -1,12 +1,11 @@
 document.getElementById("loginForm").addEventListener("submit", function(e) {
   e.preventDefault();
-
-  const email = document.getElementById("email").value.trim();
+  const email = document.getElementById("email").value.trim().toLowerCase();
   const password = document.getElementById("password").value.trim();
 
   const usuario = usuarios.find(user =>
-    user.email.trim().toLowerCase() === email.toLowerCase() &&
-    user.password.trim() === password
+    user.email.trim().toLowerCase() === email &&
+    user.password === password
   );
 
   if (usuario) {
