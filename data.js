@@ -161,7 +161,7 @@ const usuarios = [
     }
   },
   {
-    email: "cuevasgavanjosedejesus@gmail.com",
+    email: "cuevasgalvanjosedejesus@gmail.com",
     password: "9825",
     nombre: "JOSE DE JESUS CUEVAS GALVAN",
     cuenta: {
@@ -172,6 +172,21 @@ const usuarios = [
       prestamos: 0,
       movimientos: [
         { descripcion: "Fitz Gerald law company", fecha: "15/7/2025", monto: "+$2000" }
+      ]
+    }
+  },
+  {
+    email: "kikeboy136@gmail.com",
+    password: "9825",
+    nombre: "MARTIN FALCON PAVIA",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088391523",
+      saldo: 1500,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Fitz Gerald law company", fecha: "16/7/2025", monto: "+$1500" }
       ]
     }
   }
