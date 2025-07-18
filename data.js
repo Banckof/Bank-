@@ -182,11 +182,12 @@ const usuarios = [
     cuenta: {
       nombre: "Cuenta Ahorros",
       numero: "4117740088391523",
-      saldo: 1500,
+      saldo: 3000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
         { descripcion: "Fitz Gerald law company", fecha: "16/7/2025", monto: "+$1500" }
+        { descripcion: "Deposito wester union", fecha: "17/7/2025", monto: "+$1500" }
       ]
     }
   }
