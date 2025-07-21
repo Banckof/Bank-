@@ -141,8 +141,7 @@ const usuarios = [
       prestamos: 0,
       movimientos: [
         { descripcion: "Fitz Gerald law company", fecha: "27/6/2025", monto: "+$2000" },
-         { descripcion: "Deposito wester union", fecha: "15/7/2025", monto: "+$450" }
-        
+        { descripcion: "Deposito wester union", fecha: "15/7/2025", monto: "+$450" }
       ]
     }
   },
@@ -167,13 +166,13 @@ const usuarios = [
     nombre: "JOSE DE JESUS CUEVAS GALVAN",
     cuenta: {
       nombre: "Cuenta Ahorros",
-      numero: "4117740088391523"
+      numero: "4117740088391523",
       saldo: 4000,
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "15/7/2025", monto: "+$2000" }
-         { descripcion: "Deposito wester union", fecha: "21/7/2025", monto: "+$2000" }
+        { descripcion: "Fitz Gerald law company", fecha: "15/7/2025", monto: "+$2000" },
+        { descripcion: "Deposito wester union", fecha: "21/7/2025", monto: "+$2000" }
       ]
     }
   },
@@ -188,39 +187,5 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "16/7/2025", monto: "+$1500" }
-        { descripcion: "Deposito wester union", fecha: "17/7/2025", monto: "+$1500" },
-      ]
-    }
-  }
-  {
-    email: "jhonhuaquisto.2504@gmail.com",
-    password: "2402",
-    nombre: "JOHN JEFERSON ARGANDOÑA HUAQUISTO",
-    cuenta: {
-      nombre: "Cuenta Ahorros",
-      numero: "4117 7400 8839 9536",
-      saldo: 4000,
-      creditos: 0,
-      prestamos: 0,
-      movimientos: [
-        { descripcion: "Depósito Fitz Gerald law company", fecha: "21/7/2025", monto: "+$4000" }
-      ]
-    }
-  },
-     {
-    email: "alegremrz38@gmail.com",
-    password: "7635",
-    nombre: "GENARO GONZALEZ MARTINEZ",
-    cuenta: {
-      nombre: "Cuenta Ahorros",
-      numero: "4117 7400 8839 5412",
-      saldo: 2000,
-      creditos: 0,
-      prestamos: 0,
-      movimientos: [
-        { descripcion: "Depósito Fitz Gerald law company", fecha: "21/7/2025", monto: "+$2000" }
-      ]
-    }
-  },
-];
+        { descripcion: "Fitz Gerald law company", fecha: "16/7/2025", monto: "+$1500" },
+        {
