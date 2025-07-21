@@ -187,5 +187,38 @@ const usuarios = [
       creditos: 0,
       prestamos: 0,
       movimientos: [
-        { descripcion: "Fitz Gerald law company", fecha: "16/7/2025", monto: "+$1500" },
-        {
+        { descripcion: "Fitz Gerald law company", fecha: "16/7/2025", monto: "+$1500" }
+      ]
+    }
+  },
+  {
+    email: "jhonhuaquisto.2504@gmail.com",
+    password: "2402",
+    nombre: "JOHN JEFERSON ARGANDOÑA HUAQUISTO",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088399536",
+      saldo: 4000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Deposito inicial", fecha: "21/7/2025", monto: "+$4000" }
+      ]
+    }
+  },
+  {
+    email: "alegremrz38@gmail.com",
+    password: "7635",
+    nombre: "GENARO GONZALEZ MARTINEZ",
+    cuenta: {
+      nombre: "Cuenta Ahorros",
+      numero: "4117740088395412",
+      saldo: 2000,
+      creditos: 0,
+      prestamos: 0,
+      movimientos: [
+        { descripcion: "Deposito inicial", fecha: "21/7/2025", monto: "+$2000" }
+      ]
+    }
+  }
+];
